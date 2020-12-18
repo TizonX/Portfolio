@@ -1,0 +1,436 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+  color: white;
+}
+
+.div
+{
+  display: none;
+}
+/* Home section start */
+#hamburger{
+  position: fixed;
+  top: 2vh;
+  left: 10vw;
+  color: white;
+
+  font-size: 40px;
+  cursor: pointer;
+}
+.hamburger-menu
+{
+  position: fixed;
+  top: 2vh;
+  left: 20vh;
+  width: 30vh;
+  height: 40vh;
+  background-color: black;
+  z-index: 1111;
+
+}
+.hamburger-menu .fa-times
+{
+  position: absolute;
+  right: 2vh;
+  top :1vh;
+  font-size: 1rem;
+  font-weight: 100;
+}
+.hamburger-menu ul
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.hamburger-menu li
+{
+  list-style-type: none;
+  overflow-wrap: hidden;
+}
+.hamburger-menu li a
+{
+  text-decoration: none;
+  color: green;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-family: sans-serif;
+
+  transition: all .7s ease-in-out;
+}
+.hamburger-menu li a:hover
+{
+  font-size: 2rem;
+  color: white;
+}
+
+/* home section start here*/
+section.home {
+  width: 100%;
+  height: 100vh;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section.home .intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+section.home .intro h3 {
+  font-size: 2rem;
+  font-family: sans-serif;
+  padding-bottom: 0.3rem;
+  color: green;
+}
+section.home .intro h1 {
+  font-size: 4rem;
+  font-family: sans-serif;
+  padding-bottom: 2rem;
+}
+section.home .intro h1 span {
+  color: green;
+}
+section.home .intro p {
+  font-size: 1.6rem;
+  padding-bottom: 5rem;
+}
+section.home .intro p span {
+  color: green;
+}
+section.home .intro button {
+  padding: 1rem 2rem;
+  background: transparent;
+  border: 1px solid green;
+  color: green;
+  font-size: 1rem;
+  margin-bottom: 3rem;
+  box-shadow: 2px 3px 5px;
+  cursor: pointer;
+  outline: none;
+}
+section.home .social {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+section.home .social i {
+  font-size: 2rem;
+  margin-top: 1rem;
+  color: green;
+}
+
+/* about section end */
+
+section.about {
+  width: 100%;
+  height: 150vh;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section.about .container {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section.about .container .aboutHead {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+section.about .container .aboutHead h4 {
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+  color: green;
+}
+section.about .container .aboutHead h2 {
+  font-size: 2.5rem;
+  font-family: sans-serif;
+  padding-bottom: 2.7rem;
+}
+section.about .container .aboutHead p {
+  text-align: start;
+  width: 100%;
+  font-size: 1.1rem;
+  font-family: sans-serif;
+  color: gray;
+}
+section.about .container .aboutHead img {
+  position: absolute;
+  top: 15vh;
+  left: 0;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-left: -8vw;
+}
+section.about .container .abourSkilProf {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 10rem;
+}
+section.about .container .abourSkilProf .aboutProf {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+section.about .container .abourSkilProf .aboutProf h2 {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding-bottom: 1rem;
+  text-align: left;
+  width: 80%;
+  color: green;
+}
+section.about .container .abourSkilProf .aboutProf p {
+  text-align: justify;
+  width: 80%;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  color: gray;
+  padding-bottom: 3rem;
+}
+section.about .container .abourSkilProf .aboutSkill
+{
+  width: 100%;
+}
+section.about .container .abourSkilProf .aboutSkill h2 {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding-bottom: 2.7rem;
+  text-align: left;
+  width: 80%;
+  color: green;
+}
+section.about .container .abourSkilProf .aboutSkill p {
+  text-align: justify;
+  width: 100%;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  color: gray;
+  padding-bottom: 3rem;
+}
+.html {
+  width: 90%;
+  background-color: green;
+}
+.css {
+  width: 80%;
+  background-color: green;
+}
+.js {
+  width: 65%;
+  background-color: green;
+}
+.react {
+  width: 60%;
+  background-color: green;
+}
+.containers {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color: white;
+  margin-bottom: 2rem;
+}
+/*abour section end*/
+
+
+/*education section start*/
+
+section.education
+{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+
+    
+}
+section.education .eduDtil h1
+{
+  text-align: center;
+  padding: 5rem 1rem;
+  font-size: 3rem;
+  font-family: sans-serif;
+  color: green;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  font-weight: 100;
+  /* text-decoration: underline; */
+  text-shadow: 2px 2px 3px gray;
+}
+section.education .slider .slide img
+{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+
+  object-fit: contain; 
+  margin-bottom: 2rem;
+}
+section.education .slider .slide
+{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section.education .slider .slide h1
+{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  color: green;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 300;
+}
+section.education .slider .slide p
+{
+  font-size: 1.1rem;
+  margin-bottom: .5rem;
+  color: rgb(223, 221, 221);
+  letter-spacing: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+section.education .slider .slide span
+{
+  font-size: 1.1rem;
+  margin-bottom: .5rem;
+  color: gray;
+}
+section.education .slider-dots .dots
+{
+  list-style-type: none;
+  display: flex !important;
+  justify-content: center;
+}
+section.education .slider-dots
+{
+  margin-top: 3rem;
+}
+section.education .slider-dots button
+{
+  font-size: 0;
+  width: 8px;
+  height: 5px;
+  margin-right: .3rem;
+  border: none;
+  outline: none;
+  background-color: gray;
+  border-radius: 100px;
+  cursor: pointer;
+}
+section.education .dots li.slick-active button
+{
+  background-color: green;
+  width: 20px;
+}
+
+@media(max-width:576px)
+{
+  .hamburger-menu
+  {
+    left: 0;
+    top: 0;
+  }
+  section.home .intro h1
+  {
+    font-size: 3rem;
+  }
+  /* about section */
+  section.about 
+  {
+    height: 220vh;
+  }
+
+  section.about .container .aboutHead
+  {
+    width: 100%!important;
+  }
+  section.about .container .aboutHead h2
+  {
+    font-size: 1.5rem;
+  }
+  section.about .container .aboutHead p
+  {
+    font-size: .9rem;
+  }
+  section.about .container .aboutHead img
+  {
+    width: 80px!important;
+    height:80px;
+    top: 33vh;
+    left: 18vh;
+  }
+  section.about .container .abourSkilProf
+  {
+    flex-direction: column;
+  }
+  section.about .container .abourSkilProf .aboutProf h2
+  {
+    text-align: center;
+  }
+  section.about .container .abourSkilProf .aboutProf p
+  {
+    font-size: 1rem;
+    width: 100%!important;
+    text-align: center;
+  }
+  section.about .container .abourSkilProf .aboutSkill
+  {
+    margin-bottom: -5vh;
+  }
+  section.about .container .abourSkilProf .aboutSkill p
+  {
+    font-size: .9rem;
+  }
+  /*education section start*/
+  section.education .eduDtil h1
+  {
+    padding: 5rem 0rem;
+  }
+  section.education .slider .slide img
+  {
+    width: 100px!important;
+    height: 100px;
+  }
+  section.education .slider .slide h1
+  {
+    font-size: 1.5rem;
+  }
+  section.education .slider .slide p
+  {
+    font-size: .9rem;
+  }
+}
